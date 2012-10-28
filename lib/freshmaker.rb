@@ -1,5 +1,5 @@
 require 'yaml'
-AUTH = YAML::load(File.open 'conf/auth.yml')
+AUTH = YAML::load(File.open 'auth.yml')
 
 require 'freshmaker/client'
 require 'freshmaker/ticket_proxy'
